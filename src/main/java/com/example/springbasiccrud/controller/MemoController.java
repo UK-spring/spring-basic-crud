@@ -39,7 +39,7 @@ public class MemoController {
     }
 
     @PutMapping("/{id}")
-    public MemoResponseDto findMemoById(
+    public MemoResponseDto updateMemoById(
             @PathVariable Long id,
             @RequestBody MemoRequestDto requestDto
     ) {
